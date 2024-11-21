@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #007bff;
+}
+
+.paso {
+    display: none;
+}
+
+.paso.activo {
+    display: block;
+}
+
+#mensajeExito {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.perrito {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+    }
+
+    .perrito {
+        max-width: 150px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
